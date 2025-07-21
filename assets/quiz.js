@@ -9,10 +9,10 @@ const quizId = urlParams.get('quiz') || '1';
 
 // Διαφορετικοί χρόνοι για κάθε quiz (σε δευτερόλεπτα)
 const quizTimes = {
-    "1": 600,  
-    "2": 600,  
-    "3": 900,
-    "4": 600
+    "1": 1200,  
+    "2": 1200,  
+    "3": 1200,
+    "4": 1200
 };
 
 let initialTime = quizTimes[quizId] || 600; // Αν δεν υπάρχει, default 600
